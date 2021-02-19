@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        input[type=text] {
+          width: 50%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          box-sizing: border-box;
+          
+        }
+        form{
+            text-align: center
+        }
+    </style>
+</head>
+<body>
+    <form >
+        <h1>Feedback Form</h1>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname">
+        <br>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname">
+        <br>
+        <label for="fname">Email</label>
+        <input type="text" id="fname" name="fname">
+        <br>
+        <h3>What did you like the most about college ? </h6>
+        <input type="radio" value="student">
+        <label>Student</label><br><br>
+        <input type="radio" value="location">
+        <label >Location</label><br><br>
+        <input type="radio" value="campus">
+        <label>Campus</label><br><br>
+        <input type="radio" value="Atmosphere">
+        <label>Atmosphere</label><br><br>
+        <input type="radio" value="dorm room">
+        <label>Dorm Room</label><br><br>
+        <input type="radio" value="Sports">
+        <label>Sports</label><br><br>
+
+        <h3>How did you come across the college? </h6>
+        <input type="radio" value="Friends">
+        <label>Friends</label><br><br>
+        <input type="radio" value="Internet">
+        <label >Internet</labelInternet><br><br>
+        <input type="radio" value="TV">
+        <label>TV</label><br><br>
+        <input type="radio" value="Other">
+        <label>Other</label><br><br>
+        
+        <label >Additional Feedback</label>
+
+        <textarea  rows="4" cols="100">
+
+        </textarea><br><br>
+        <input type="submit" value="Submit" onclick="alert('Thank you for your unnecessary feedback!')">
+        <input type="submit" value="Reset" onclick="window.location.reload">
+    </form>
+    
+</body>
+</html>
